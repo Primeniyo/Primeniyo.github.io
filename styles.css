@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color: rgb(236, 248, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 300px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 600px;
+  box-shadow: 5px 10px 8px 2px rgba(0, 0, 0, 0.1);
+}
+.container1 {
+  display: flex;
+  color: white;
+}
+
+.card1 {
+  background-color: white;
+  padding: 30px;
+}
+.card1 h2 {
+  color: hsl(179, 62%, 43%);
+}
+.card1 h3 {
+  color: hsl(71, 73%, 54%);
+}
+.card2 {
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px;
+  width: 50%;
+}
+.card2 button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  width: 210px;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.card3 {
+  background-color: rgb(110, 233, 233);
+  padding: 30px;
+  width: 50%;
+  border-color: none;
+}
